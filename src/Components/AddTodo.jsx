@@ -7,7 +7,7 @@ export function AddTodo({ handlAdd }) {
     <div
       style={{
         margin: "auto",
-        backgroundColor: "orange",
+        backgroundColor: "teal",
         width: "70%",
 
         padding: "10%"

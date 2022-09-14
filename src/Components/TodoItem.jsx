@@ -5,7 +5,7 @@ export function TodoItem(props) {
     <div
       style={{
         margin: "auto",
-        backgroundColor: "skyblue",
+        backgroundColor: "orange",
         width: "90%",
         padding: "0.5rem",
         display: "flex",
@@ -21,7 +21,18 @@ export function TodoItem(props) {
       >
         toggle
       </button>
-      <button onClick={() => props.Delete(id)}>delete</button>
+      <button
+        style={{
+          height: "25px",
+          width: "100px",
+          marginTop: "13px",
+          backgroundColor: "red",
+          color: "white"
+        }}
+        onClick={() => props.Delete(id)}
+      >
+        delete
+      </button>
     </div>
   );
 }
